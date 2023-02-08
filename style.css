@@ -1,0 +1,110 @@
+.container1{display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+label{display: flex;
+border: 5px;
+border-color: black;}
+.container2 { 
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    
+}
+button{ display: flex;
+    background-color: rgb(86, 87, 88);
+    border-radius: 2px;
+    padding: 7px;
+    border:solid 5px;
+    border-color: rgb(76, 83, 83);
+    font-size: 25px;
+    color: rgb(214, 208, 190);
+    cursor: pointer;
+
+}
+.input-group{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+
+}
+
+.add-cart{
+width: 100%;
+background-color: rgb(190, 195, 199);
+transition: all 0.3s ease-in-out;
+cursor: pointer;
+text-align: center;
+opacity: 0;
+border: solid;
+border-radius: 3px;
+background-color: rgb(233, 222, 10);
+
+}
+.box1:hover .cart1,
+.box2:hover .cart2,
+.box3:hover .cart3
+{
+bottom: 50px;
+    opacity: 1;
+}
+.box1,.box2,.box3 { display: flex;
+    
+transition: 0.4ms;
+padding: 10px;
+flex-direction: column;
+width: 260px;
+height: 374px;
+justify-content: space-around;
+align-items: center;
+border: 7px solid 
+
+
+
+}
+p{ color: black;
+font-size: 27px;
+font-family: cursive;}
+.container3{display: flex;
+justify-content: space-around;
+flex-direction: row;
+height: 1600px;}
+.container4{display: flex;
+justify-content: space-around;
+}
+
+
+h2{ font-size: 30px;
+font-family: cursive;
+color: rgb(6, 250, 246);}
+
+
+
+
+.box0{display: flex;
+background-color: rgb(31, 29, 29);
+border: black solid;
+border-radius: 5px;
+height: 20px;
+width: 45px;
+  color: aliceblue;   
+
+}
+.container2{ display: flex;}
+
+
+.boxx{
+    background-color:rgb(33, 41, 251);
+    border :solid ;
+    border-radius: 2px;
+    border-color: rgb(33, 41, 251);
+    height: 23px;
+    color: aliceblue;
+    align-items: center;
+}
+body{display: flex;
+    height: 700px;
+flex-direction: column;
+justify-content: space-around;}
