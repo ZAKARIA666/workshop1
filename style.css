@@ -45,18 +45,16 @@ background-color: rgb(233, 222, 10);
 }
 .box1:hover .cart1,
 .box2:hover .cart2,
-.box3:hover .cart3
-{
-bottom: 50px;
-    opacity: 1;
-}
+.box3:hover .cart3{bottom: 50px;
+    opacity: 1;}
+
 .box1,.box2,.box3 { display: flex;
     
-transition: 0.4ms;
+
 padding: 10px;
 flex-direction: column;
-width: 260px;
-height: 374px;
+width: 290px;
+height: 394px;
 justify-content: space-around;
 align-items: center;
 border: 7px solid 
@@ -70,7 +68,7 @@ font-family: cursive;}
 .container3{display: flex;
 justify-content: space-around;
 flex-direction: row;
-height: 1600px;}
+height: 1500px;}
 .container4{display: flex;
 justify-content: space-around;
 }
@@ -108,3 +106,13 @@ body{display: flex;
     height: 700px;
 flex-direction: column;
 justify-content: space-around;}
+#heart {
+    font-size: 24px;
+    cursor: pointer;
+    color: rgb(221, 17, 17);
+  }
+  
+  .filled {
+    color: rgb(190, 172, 172);
+  }
+  

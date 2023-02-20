@@ -28,21 +28,100 @@
 
   <ion-icon name="basket"></ion-icon>cart<span>0</span></div>  </div></a>  </li></ul>
 <div  class="container3">
-     <div class="box1"> <img src="/KSTTK1890.jpg" alt=""  width="200px " height="200px"> <p>marco reus</p> <h1> TND 249.99 </h1>  <div class="container4">
-<a class="add-cart cart1" href="#"> add cart</a> </div>
-     <!-- Use an element to toggle between a like/dislike icon -->
-     <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>  
-     <i class="bi bi-heart"></i>
+     <div class="box1"> <img src="/KSTTK1890.jpg" alt=""  width="200px " height="200px"> <p>marco reus</p> <h1> TND 249.99 </h1> <span class="heart">&#9829;</span> <style>
+      .heart {
+        width: 80px;
+        height: 80px;
+        
+        background-image: url(heart-empty.png);
+        background-size: 400px;
+        cursor: pointer;
+      }
+      
+      .heart.filled {
+        background-image: url(heart-filled.png);
+      }
+      </style>
+      
+      <div class="heart"></div>
+      
+      <script>
+      const heart = document.querySelector(".heart");
+      
+      heart.addEventListener("click", function() {
+        heart.classList.toggle("filled");
+      });
+      </script>
+        <div class="container4">
+<a class="add-cart cart1" href="#"> add cart</a>
+ 
+
+  
+
+
+</div> 
+
+
+
+    
     </div>
      <div class="box2"> 
       <svg class="bi" width="32" height="32" fill="currentColor">
         <use xlink:href="bootstrap-icons.svg#heart-fill"/>
-      </svg><img src="/rmcfmz0082-real-madrid-mens-third-authentic-shirt-22-23-black-8-kroos.webp" alt="" width="200px " height="200px"> <p>toni kroos</p> <h1> TND 199.99</h1> <div class="container4">
-     <a class="add-cart cart2" href="#"> add cart</a></div>
+      </svg><img src="/rmcfmz0082-real-madrid-mens-third-authentic-shirt-22-23-black-8-kroos.webp" alt="" width="200px " height="200px"> <p>toni kroos</p> <h1> TND 199.99</h1> <span class="hearttt">&#9829;</span> <style>
+        .hearttt {
+          width: 80px;
+          height: 80px;
+          
+          background-image: url(heart-empty.png);
+          background-size: 400px;
+          cursor: pointer;
+        }
+        
+        .heart.filled {
+          background-image: url(heart-filled.png);
+        }
+        </style>
+        
+        <div class="hearttt"></div>
+        
+        <script>
+        const hearttt = document.querySelector(".hearttt");
+        
+        hearttt.addEventListener("click", function() {
+          hearttt.classList.toggle("filled");
+        });
+        </script> <div class="container4">
+     <a class="add-cart cart2" href="#"> add cart</a> 
+    </div>
      <!-- Use an element to toggle between a like/dislike icon -->
      <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i> </div> 
-     <div class="box3">  <img src="/STTK1900.jpg" alt="" width="200px " height="200px"><p> emre can </p> <h1> TND 129.99  </h1> <div class="container4">
-     <a class="add-cart cart3" href="#"> add cart</a></div>
+     <div class="box3">  <img src="/STTK1900.jpg" alt="" width="200px " height="200px"><p> emre can </p> <h1> TND 129.99  </h1><span class="heartt">&#9829;</span> <style>
+      .heartt {
+        width: 80px;
+        height: 80px;
+        
+        background-image: url(heart-empty.png);
+        background-size: 400px;
+        cursor: pointer;
+      }
+      
+      .heartt.filled {
+        background-image: url(heart-filled.png);
+      }
+      </style>
+      
+      <div class="heartt"></div>
+      
+      <script>
+      const heartt = document.querySelector(".heartt");
+      
+      heartt.addEventListener("click", function() {
+        heartt.classList.toggle("filled");
+      });
+      </script> <div class="container4">
+     <a class="add-cart cart3" href="#"> add cart</a>
+    </div>
      <!-- Use an element to toggle between a like/dislike icon -->
      <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i> </div>
     
